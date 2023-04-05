@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./src/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +39,14 @@
   "main": "index.js",
   "devDependencies": {},
   "author": "aknair19",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aknair19/Khana-a-food-delivering-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/aknair19/Khana-a-food-delivering-app/issues"
+  },
+  "homepage": "https://github.com/aknair19/Khana-a-food-delivering-app#readme"
 }
