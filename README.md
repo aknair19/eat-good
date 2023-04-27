@@ -1,3 +1,0 @@
-You can order from wide variety of restaurents partnered with us.
-Currently available in Delhi Bengaluru and Mumbai.
-Make you first order now to get amazing discounts....
