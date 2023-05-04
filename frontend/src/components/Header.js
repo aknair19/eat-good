@@ -45,7 +45,7 @@ const Header = () => {
 
         <li className="relative ">
           <NavLink to="/cart" className="   font-bold text-lg text-red-600 active:text-gray-400">
-            <span className="absolute text-xs right-[-12px]  top-[-7px] bg-green-700 text-white rounded-lg px-1">
+            <span className="absolute text-xs -right-3  top-[-7px] bg-red-600 text-white rounded-lg px-1">
               {getTotalCartQty(cartItems)}
             </span>
             <GiCartwheel className="text-3xl" />

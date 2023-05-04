@@ -54,7 +54,7 @@ const Cart = () => {
       </Link>
     </div>
   ) : (
-    <div className="p-3  w-3/4 mx-auto my-4 h-screen">
+    <div className="p-3  w-full md:w-3/4 mx-auto my-4 h-screen">
       <h1 className="text-center text-xl font-medium">
         Items in Cart[{getTotalCartQty(cartItems)}]
       </h1>
@@ -65,7 +65,7 @@ const Cart = () => {
               {item.name}{" "}
               <span className="text-xl text-red-600 font-bold mx-1">
                 [{item.inCart}]
-              </span>{" "}
+              </span>
             </h4>
             <h4 className="text-sm font-semibold">
               ₹{item.price ? item.price / 100 : 99}
@@ -84,7 +84,7 @@ const Cart = () => {
         </div>
       ))}
 
-      <div className="w-1/2 mx-auto">
+      <div className="  w-full md:w-1/2 mx-auto">
         <h2 className="text-center font-bold text-lg p-3 ">Price Breakup</h2>
         <div className="m-1 p-5  border-2 border-dashed border-red-600 ">
           <p className="text-sm font-semibold">Item Total ₹{totalSum / 100}</p>
