@@ -27,7 +27,7 @@ const useFetch = (url, params) => {
     try {
     
       const fetchData = async () => {
-        const data = await fetch(url + params+"&submitAction=ENTER");
+        const data = await fetch(url + params);
         const response = await data.json();
         setApiData(response);
         console.log(response)
